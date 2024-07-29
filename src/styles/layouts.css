@@ -1,0 +1,37 @@
+.header {
+    @apply bg-black z-20 shadow-xl flex flex-row w-full py-3 px-7 justify-between items-center border-b-[1px] border-secondary;
+}
+
+.nav {
+    @apply text-secondary list-none hidden md:flex gap-8 text-xl cursor-pointer;
+}
+
+.mobile-nav {
+    @apply absolute flex flex-col md:hidden top-0 justify-center w-full left-0 items-center py-7 bg-opacity-50 bg-slate-800 border-b-[1px] gap-6 text-secondary;
+}
+
+.nav-item {
+    @apply relative font-semibold hover:scale-125 duration-500 hover:text-shadow-md;
+}
+
+@keyframes slideDown {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+.slide-down {
+    animation: slideDown 0.3s forwards;
+}
+
+.slide-up {
+    animation: slideUp 0.3s forwards;
+}
+
+.footer {
+    @apply w-full bg-dark
+}

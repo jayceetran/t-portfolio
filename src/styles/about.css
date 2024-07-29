@@ -1,0 +1,3 @@
+.member-card {
+    @apply p-6 rounded-lg shadow-lg flex flex-col justify-center items-center hover:scale-105 duration-300;
+}

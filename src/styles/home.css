@@ -1,0 +1,8 @@
+.service-card {
+    @apply min-w-[100%] md:min-w-[30%] sm:min-w-[50%] flex justify-center;
+}
+
+.card {
+    @apply border border-secondary rounded-xl w-[350px];
+    box-shadow: 1px 5px 10px ;
+}
